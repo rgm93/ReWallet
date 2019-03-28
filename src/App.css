@@ -1,0 +1,180 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,700,600);
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Roboto;
+  height: 100vh;
+  width: 100vw;
+  background: #ecf0f1;
+}
+
+/** {
+  margin: auto;
+  width: 100%;
+  padding: 0;
+  box-sizing: border-box;
+  transition: background color 0.5s ease;
+}*/
+
+.card {
+  width: 100%;
+  margin: auto;
+  overflow: hidden;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  border-radius: 0.3125rem;
+  transition: all 0.3s ease;
+  margin-bottom: 0px;
+  margin-right: 9.5px;
+  z-index: 1;
+}
+
+.cardLogin {
+  height: 100%;
+  margin: auto;
+  overflow: hidden;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  border-radius: 0.3125rem;
+  transition: all 0.3s ease;
+  margin-right: 9.5px;
+  margin-left: 9.5px;
+  z-index: 1;
+}
+
+.address {
+  background: rgb(0, 89, 124);
+  color: white;
+  font-size: 1.5em;
+  padding: 0.5rem 0.25rem;
+  word-wrap: break-word;
+}
+
+.bal {
+  color: white;
+  font-size: 1.5em;
+  margin-top: 1rem;
+  padding: 0rem 0;
+  text-align: center;
+}
+
+.title {
+  width: 100vw;
+  font-size: 2em;
+  color: #505050;
+  text-align: center;
+}
+
+.qr {
+  padding: 1rem 0 0 0;
+  margin-top: 1rem;
+}
+
+.total {
+  font-size: 2.5em;
+}
+
+.info {
+  height: 600px;
+  padding: 1rem 0;
+  background: hsl(207, 30%, 39%);
+}
+
+.info2 {
+  height: 88.2%;
+  padding: 1rem 0;
+  background: hsl(207, 30%, 39%);
+}
+
+.send {
+  border: 1px red;
+  width: 100%;
+}
+
+.send input[type="text"] {
+  width: 100%;
+  font: 1rem Roboto;
+  color: #fff;
+  border: 0;
+  padding: 15px 0;
+  background: #9ba3ac;
+  text-align: center;
+  border-radius: 0;
+}
+
+.send input[type="number"] {
+  width: 100%;
+  font: 1rem Roboto;
+  color: #fff;
+  border: 0;
+  padding: 15px 0;
+  background: #505050;
+  text-align: center;
+  border-radius: 0;
+}
+
+.send button {
+  width: 100%;
+  font: 1rem Roboto;
+  color: #fff;
+  border: 0;
+  padding: 15px 0;
+  background: rgb(77, 167, 219);
+  text-align: center;
+  transition: all 0.2s ease;
+  cursor: pointer;
+}
+
+.send button:hover {
+  background: #3c8bb9;;
+}
+
+.amount--box {
+  border: 1px red;
+  width: 100%;
+  height: 100%;
+}
+
+.send label {
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+}
+
+.element {
+  height: 690px;
+  width: 100%;
+}
+
+.element3 {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.centered {
+  padding-top: 7%;
+}
