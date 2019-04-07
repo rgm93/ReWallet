@@ -11,3 +11,8 @@ Mediante la verificación de identidad del usuario a través de tu número de te
 > cd rewallet && yarn 
 
 > yarn start
+
+## ¡Infórmate de qué va el proyecto y como está formado!
+
+Te invito a que entres a mi cuenta de Twitter y que eches un vistazo sobre el proceso de creación y de formación del proyecto: 
+https://twitter.com/wallet_re
