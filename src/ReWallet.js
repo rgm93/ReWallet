@@ -88,7 +88,6 @@ class ReWallet extends Component {
     let age = this.refs.age.value;
     let city = this.refs.city.value;
     let message = this.refs.message.value;
-    // let to2 = this.refs.to2.value;
 
     const contract = new web3F.eth.Contract(REWALLET_SC, REWALLET_ADDRESS);
 
@@ -165,7 +164,7 @@ class ReWallet extends Component {
 
             <div className="card">
               <div className="address">
-                  Write a Message
+                  Register data into Blockchain
               </div>
               <div className="send">
                 <form onSubmit={this.handleSendSCTransaction.bind(this)}>
@@ -174,8 +173,7 @@ class ReWallet extends Component {
                     <input type="number" ref="age" placeholder="Age" style={{color: "black", backgroundColor: "white", borderColor: "black"}}/>
                     <input type="text" ref="city" placeholder="City" style={{color: "black", backgroundColor: "white", borderColor: "black"}}/>
                     <input type="text" ref="message" placeholder="Message" style={{color: "black", backgroundColor: "white", borderColor: "black"}}/>
-                    <input type="text" ref="to2" placeholder="Type send address" style={{color: "black", backgroundColor: "white", borderColor: "black"}}/>
-                    <button type="submit">Send Message</button>
+                    <button type="submit">Send Data</button>
                 </form>
               </div>
             </div>

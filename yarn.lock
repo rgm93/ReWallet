@@ -4328,10 +4328,10 @@ form-data@~2.3.2:
     combined-stream "^1.0.6"
     mime-types "^2.1.12"
 
-fortmatic@0.5.1:
-  version "0.5.1"
-  resolved "https://registry.yarnpkg.com/fortmatic/-/fortmatic-0.5.1.tgz#205e65c39c2bde3f87a38a5caf05e83b1a1af71d"
-  integrity sha512-V3nUxTtaEEEdxmOTzWN/2qMASdFzHMzgse8mKkPvAgRuqF45xvI59K/FL/CpTJ0Zyhgj3SLWKoCuEUHpgISkCw==
+fortmatic@^0.7.0:
+  version "0.7.0"
+  resolved "https://registry.yarnpkg.com/fortmatic/-/fortmatic-0.7.0.tgz#978fa01e56a0fb1e5fb167c8fb366e8f100b57cd"
+  integrity sha512-ZLHy7g3z9jKkfba7Ow8H7ZR0IbKAG7wUy062BKBMGrDFqtM2ii7n4eMRYNWcqvsZXZ3E26CxXEqIFI81ibTdLw==
   dependencies:
     "@babel/runtime" "7.3.4"
 
