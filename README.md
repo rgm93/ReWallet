@@ -16,3 +16,7 @@ Mediante la verificación de identidad del usuario a través de tu número de te
 
 Te invito a que entres a mi cuenta de Twitter y que eches un vistazo sobre el proceso de creación y de formación del proyecto: 
 https://twitter.com/wallet_re
+
+## Demo en vídeo
+
+https://www.youtube.com/watch?v=x_TgWytf7sk
